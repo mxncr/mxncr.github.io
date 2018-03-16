@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Maxence Reberol&#39;s Homepage</title>
+    <link>http://homepages.loria.fr/mreberol/project/</link>
+    <description>Recent content in Projects on Maxence Reberol&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 11 Jan 2018 19:37:34 +0100</lastBuildDate>
+    
+	<atom:link href="http://homepages.loria.fr/mreberol/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thèse</title>
+      <link>http://homepages.loria.fr/mreberol/project/phd/</link>
+      <pubDate>Thu, 11 Jan 2018 19:37:34 +0100</pubDate>
+      
+      <guid>http://homepages.loria.fr/mreberol/project/phd/</guid>
+      <description> Manuscrit  Lien vers la thèse (35 Mo, format pdf) Version compressée (9 Mo, format pdf)  Les publications associées sont disponibles dans la section Publications.
+Historique des changements:
+ 15/01/19 : version initiale  Soutenance  Date : vendredi 23 mars 2018 à 14h Lieu : Salle C005, Loria, 615 Rue du Jardin-Botanique, 54506 Vandœuvre-lès-Nancy  </description>
+    </item>
+    
+  </channel>
+</rss>

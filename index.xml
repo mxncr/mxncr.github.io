@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maxence Reberol&#39;s Homepage on Maxence Reberol&#39;s Homepage</title>
+    <link>http://homepages.loria.fr/mreberol/</link>
+    <description>Recent content in Maxence Reberol&#39;s Homepage on Maxence Reberol&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/mreberol/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thèse</title>
+      <link>http://homepages.loria.fr/mreberol/project/phd/</link>
+      <pubDate>Thu, 11 Jan 2018 19:37:34 +0100</pubDate>
+      
+      <guid>http://homepages.loria.fr/mreberol/project/phd/</guid>
+      <description>
+
+&lt;h2 id=&#34;manuscrit&#34;&gt;Manuscrit&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../pdf/these_mreberol.pdf&#34;&gt;Lien vers la thèse&lt;/a&gt; (35 Mo, format pdf)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../pdf/these_mreberol_compressee.pdf&#34;&gt;Version compressée&lt;/a&gt; (9 Mo, format pdf)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les publications associées sont disponibles dans la section &lt;a href=&#34;../../index.html#publications&#34;&gt;Publications&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Historique des changements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15/01/19 : version initiale&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;soutenance&#34;&gt;Soutenance&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Date : vendredi 23 mars 2018 à 14h&lt;/li&gt;
+&lt;li&gt;Lieu : Salle C005, &lt;a href=&#34;http://www.loria.fr/fr/presentation/acces-au-loria/&#34; target=&#34;_blank&#34;&gt;Loria&lt;/a&gt;, 615 Rue du Jardin-Botanique, 54506 Vandœuvre-lès-Nancy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computing the distance between two finite element solutions defined on different 3D meshes on a GPU</title>
+      <link>http://homepages.loria.fr/mreberol/publication/ffes/</link>
+      <pubDate>Thu, 11 Jan 2018 18:24:30 +0100</pubDate>
+      
+      <guid>http://homepages.loria.fr/mreberol/publication/ffes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hexahedral Meshing: Mind the Gap!</title>
+      <link>http://homepages.loria.fr/mreberol/publication/mindthegap/</link>
+      <pubDate>Sun, 11 Jun 2017 18:24:39 +0100</pubDate>
+      
+      <guid>http://homepages.loria.fr/mreberol/publication/mindthegap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low-order continuous finite element spaces on hybrid non-conforming hexahedral-tetrahedral meshes</title>
+      <link>http://homepages.loria.fr/mreberol/publication/fem_hextet/</link>
+      <pubDate>Sat, 11 Jun 2016 18:24:47 +0100</pubDate>
+      
+      <guid>http://homepages.loria.fr/mreberol/publication/fem_hextet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
