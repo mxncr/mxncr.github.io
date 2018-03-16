@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Maxence Reberol&#39;s Homepage</title>
-    <link>http://homepages.loria.fr/mreberol/home/</link>
+    <link>https://mxncr.github.io/home/</link>
     <description>Recent content in Homes on Maxence Reberol&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://homepages.loria.fr/mreberol/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mxncr.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://homepages.loria.fr/mreberol/home/about/</link>
+      <link>https://mxncr.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/about/</guid>
+      <guid>https://mxncr.github.io/home/about/</guid>
       <description>Presentation I am a PhD student in the ALICE team (Inria Grand-Est) working on hex-dominant meshes: generation, numerical simulation with the finite element method and evaluation. My PhD supervisors are Bruno Lévy and Sylvain Lefebvre.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://homepages.loria.fr/mreberol/home/publications_selected/</link>
+      <link>https://mxncr.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/publications_selected/</guid>
+      <guid>https://mxncr.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://homepages.loria.fr/mreberol/home/publications/</link>
+      <link>https://mxncr.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/publications/</guid>
+      <guid>https://mxncr.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://homepages.loria.fr/mreberol/home/talks/</link>
+      <link>https://mxncr.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/talks/</guid>
+      <guid>https://mxncr.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>http://homepages.loria.fr/mreberol/home/posts/</link>
+      <link>https://mxncr.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/posts/</guid>
+      <guid>https://mxncr.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://homepages.loria.fr/mreberol/home/projects/</link>
+      <link>https://mxncr.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/projects/</guid>
+      <guid>https://mxncr.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://homepages.loria.fr/mreberol/home/teaching/</link>
+      <link>https://mxncr.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/teaching/</guid>
+      <guid>https://mxncr.github.io/home/teaching/</guid>
       <description> 2017: Course on the implementation of FEM in C++ and student project supervision, ENSG 2017: Tutorials on programming and algorithms, ENSG 2017: Tutorials on numerical analysis, ENSG 2016: Tutorials on programming and algorithms, ENSG  </description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>http://homepages.loria.fr/mreberol/home/tags/</link>
+      <link>https://mxncr.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/tags/</guid>
+      <guid>https://mxncr.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://homepages.loria.fr/mreberol/home/contact/</link>
+      <link>https://mxncr.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/home/contact/</guid>
+      <guid>https://mxncr.github.io/home/contact/</guid>
       <description></description>
     </item>
     
