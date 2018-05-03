@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Maxence Reberol&#39;s Homepage</title>
-    <link>http://homepages.loria.fr/mreberol/publication/</link>
+    <link>https://mxncr.github.io/publication/</link>
     <description>Recent content in Publications on Maxence Reberol&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://homepages.loria.fr/mreberol/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mxncr.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hexahedral Meshing: Mind the Gap!</title>
-      <link>http://homepages.loria.fr/mreberol/publication/mindthegap/</link>
+      <link>https://mxncr.github.io/publication/mindthegap/</link>
       <pubDate>Thu, 11 Jan 2018 18:24:39 +0100</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/publication/mindthegap/</guid>
+      <guid>https://mxncr.github.io/publication/mindthegap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computing the distance between two finite element solutions defined on different 3D meshes on a GPU</title>
-      <link>http://homepages.loria.fr/mreberol/publication/ffes/</link>
+      <link>https://mxncr.github.io/publication/ffes/</link>
       <pubDate>Thu, 11 Jan 2018 18:24:30 +0100</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/publication/ffes/</guid>
+      <guid>https://mxncr.github.io/publication/ffes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Low-order continuous finite element spaces on hybrid non-conforming hexahedral-tetrahedral meshes</title>
-      <link>http://homepages.loria.fr/mreberol/publication/fem_hextet/</link>
+      <link>https://mxncr.github.io/publication/fem_hextet/</link>
       <pubDate>Sat, 11 Jun 2016 18:24:47 +0100</pubDate>
       
-      <guid>http://homepages.loria.fr/mreberol/publication/fem_hextet/</guid>
+      <guid>https://mxncr.github.io/publication/fem_hextet/</guid>
       <description></description>
     </item>
     
