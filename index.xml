@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Maillages hex-dominants : génération, simulation et évaluation</title>
+      <link>https://mxncr.github.io/publication/phd/</link>
+      <pubDate>Sat, 03 Mar 2018 14:04:50 +0200</pubDate>
+      
+      <guid>https://mxncr.github.io/publication/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Thèse</title>
       <link>https://mxncr.github.io/project/phd/</link>
       <pubDate>Thu, 11 Jan 2018 19:37:34 +0100</pubDate>
