@@ -7,13 +7,16 @@
 <style>
 body{
     margin:1em auto;
-    max-width:40em;
+    max-width:45em;
     padding:0 .62em;
     font:1.1em/1.42 sans-serif;
     line-height:1.5;
 }
 h1,h2,h3 {
     line-height:1.5;
+}
+p1 {
+    text-align: justify;
 }
  @media print{
      body{
@@ -39,140 +42,212 @@ h1,h2,h3 {
 <p style="text-align:center;">
 <img src="img/b2cyls_dual_dcp.png" width="60%"/>
 </p>
-<p>
+    <p>
     I am a postdoctoral researcher at <a href="https://uclouvain.be">UCLouvain</a>
     working with <a href="https://perso.uclouvain.be/jean-francois.remacle/">Jean-François Remacle</a>
     in the context of the <a href="https://www.hextreme.eu/">Hextreme</a> ERC project. My research interests
     are automatic block decomposition, block-structured hexahedral meshing and robust hex-dominant meshing.
     </p>
 
+
     <p>
     Before that, I did a PhD in the <a href="http://alice.loria.fr/">Alice</a> team (Inria Grand-Est)
     focusing on different aspects of hex-dominant meshes: generation, numerical simulation with the finite
     element method and evaluation. My PhD supervisors were <a href="https://members.loria.fr/BLevy/">Bruno Lévy</a>
     and <a href="http://www.antexel.com/">Sylvain Lefebvre</a>.
-</p>
+    </p>
 <br>
 
 <h2>Publications</h2>
-    <dd>
     <dl>
+        <a href="img/quadqs_block.png">
+            <img style="float: left; margin: -70px 15px 0px 0px;" src="img/box_quadqs.png" width="250" />
+        </a>
+        <dt> <b> Quasi-structured quadrilateral meshing in Gmsh - a robust pipeline for complex CAD models </b> </dt>
+        <dt>Maxence Reberol, Christos Georgiadis, Jean-François Remacle </dt>
+        <dt><i>Preprint</i>, 2021</dt>
+        <dt>
+            <a href="https://arxiv.org/pdf/2103.04652.pdf">PDF</a>,
+            <a href="https://www.hextreme.eu/data/quadqs2021_supplemental.pdf">Results (supplemental)</a>,
+            <a href="https://youtu.be/OY6U3EyCq0o">Talk (video)</a> <br>
+            Available in <a href="http://gmsh.info/">Gmsh 4.8.1+</a>
+            (<a href="https://gitlab.onelab.info/gmsh/gmsh">open-source</a>)
+        </dt>
+    </dl>
+
+    <br>
+    <br>
+
+    <dl>
+        <img style="float: left; margin: -15px 15px 0px 0px;" src="img/box_highval.png" width="250" />
+        <dt> <b> Quad layouts with high valence singularities for flexible quad meshing </b> </dt>
+        <dt>Jovana Jezdimirovíc, Alexandre Chemin, Maxence Reberol, François Henrotte, Jean François Remacle</dt>
+        <dt><i>Preprint</i>, 2021</dt>
+        <dt> <a href="https://arxiv.org/pdf/2103.02939.pdf">PDF</a> </dt>
+    </dl>
+
+    <br>
+    <dl>
+        <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_poly.png" width="250" />
+        <dt> <b> Robust Quantization for Polycube Maps </b> </dt>
+        <dt>Protais François, Maxence Reberol, Nicolas Ray, Etienne Corman, Franck Ledoux, Dmitry Sokolov</dt>
+        <dt><i>Preprint</i>, 2020</dt>
+        <dt> <a href="https://hal.archives-ouvertes.fr/hal-03076711/document">PDF</a> </dt>
+    </dl>
+
+    <br>
+    <dl>
+        <img style="float: left; margin: -10px 15px 0px 0px;" src="img/box_ffc.png" width="250" />
         <dt> <b> Multiple approaches to frame field correction for CAD models </b> </dt>
         <dt>Maxence Reberol, Alexandre Chemin, Jean-François Remacle </dt>
-        <dt>28th International Meshing Roundtable, 2019</dt>
+        <dt><i>28th International Meshing Roundtable</i>, 2019</dt>
         <dt>
             <a href="https://mxncr.github.io/pdf/ff_correction_imr2019.pdf">PDF</a>,
             <a href="https://mxncr.github.io/pdf/slides_imr28_ffcorrection.pdf">Slides</a>,
             <a href="https://mxncr.github.io/data/ff_correction_models.zip">CAD models</a>
         </dt>
     </dl>
-    </dd>
 
     <br>
-    <dd>
     <dl>
+        <img style="float: left; margin: -10px 15px 0px 0px;" src="img/box_phd.png" width="250" />
         <dt> <b>Maillages hex-dominants : génération, simulation et évaluation</b> </dt>
         <dt>Maxence Reberol</dt>
-        <dt>PhD thesis, 2018</dt>
+        <dt><i>PhD thesis</i>, 2018</dt>
+        <dt>Supervisors: <a href="https://members.loria.fr/BLevy/">Bruno Lévy</a>, <a href="http://www.antexel.com/">Sylvain Lefebvre</a>
+        </dt>
         <dt>
             <a href="http://www.theses.fr/2018LORR0021">Link</a>,
             <a href="http://docnum.univ-lorraine.fr/public/DDOC_T_2018_0021_REBEROL.pdf">PDF</a>,
             <a href="https://mxncr.github.io/pdf/phd_slides.pdf">Slides</a>
         </dt>
     </dl>
-    </dd>
 
     <br>
 
-    <dd>
     <dl>
+        <img style="float: left; margin: -25px 15px 0px 0px;" src="img/box_mtg2018.png" width="250" />
         <dt> <b>Hexahedral Meshing: Mind the Gap!</b> </dt>
         <dt>Nicolas Ray, Dmitry Sokolov, Maxence Reberol, Franck Ledoux, Bruno Lévy</dt>
-        <dt>Computer-Aided Design, 2018</dt>
+        <dt><i>Computer-Aided Design</i>, 2018</dt>
         <dt>
             <a href="https://www.sciencedirect.com/science/article/pii/S0010448518302215">Link</a>,
             <a href="https://hal.inria.fr/hal-01551603">Preprint</a>
         </dt>
     </dl>
-    </dd>
 
     <br>
 
-    <dd>
     <dl>
+        <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_ffes.png" width="250" />
         <dt> <b>Computing the distance between two finite element solutions defined on different 3D meshes on a GPU</b> </dt>
         <dt>Maxence Reberol, Bruno Lévy</dt>
-        <dt>SIAM Journal on Scientific Computing, 2018</dt>
+        <dt><i>SIAM Journal on Scientific Computing</i>, 2018</dt>
         <dt>
             <a href="https://epubs.siam.org/doi/10.1137/17M1115976">Link</a>,
             <a href="https://mxncr.github.io/pdf/distance_gpu_reb18.pdf">PDF</a>,
             <a href="https://github.com/mxncr/FFES">Code (on Github)</a>
         </dt>
     </dl>
-    </dd>
 
 
     <br>
 
-    <dd>
     <dl>
+        <img style="float: left; margin: -12px 15px 0px 0px;" src="img/box_hyb.png" width="250" />
         <dt> <b>Low-order continuous finite element spaces on hybrid non-conforming hexahedral-tetrahedral meshes</b> </dt>
         <dt>Maxence Reberol, Bruno Lévy</dt>
-        <dt>Technical report, 2016</dt>
+        <dt><i>Technical report</i>, 2016</dt>
         <dt>
             <a href="https://hal.archives-ouvertes.fr/hal-01313285">Preprint</a>
         </dt>
     </dl>
-    </dd>
-</dl>
-
-
-<br>
-
-<h2>Education</h2>
-<dl>
-    <dd>
-    <dl>
-        <dt>
-        <b>PhD in Computer Science</b>
-        </dt>
-        <dt>Inria Grand-Est / Université de Lorraine</dt>
-        <dt>2015 - 2018</dt>
-    </dl>
-    </dd>
-    <br>
-
-    <dd>
-    <dl>
-        <dt>
-        <b>Engineering degree</b>
-        </dt>
-        <dt>École supérieure d'électricité</dt>
-        <dt>2011 - 2014</dt>
-    </dl>
-    </dd>
-    <br>
-
-    <dd>
-    <dl>
-        <dt>
-        <b>M.Sc. in Civil engineering</b>
-        </dt>
-        <dt>École Centrale Paris</dt>
-        <dt>2013 - 2014</dt>
-    </dl>
-    </dd>
-    <br>
-
 </dl>
 <br>
+
+
+<h2>Talks</h2>
+<ul>
+    <li>Quasi-structured quadrilateral meshing of complex CAD models in Gmsh, 
+        <a href="https://www.hextreme.eu/frames2020/">FRAMES 2020</a>, 
+        Online, 2020. 
+        (<a href="https://youtu.be/OY6U3EyCq0o">video</a>)
+    </li>
+
+    <li>3D frame fields and block decomposition of CAD models, 
+        seminar at the
+        <a href="https://cgg.unibe.ch/">Computer Graphics Group, Unibe</a>, 
+        Bern (Switzerland), 2020. 
+        (<a href="pdf/slides_bern2020.pdf">slides</a>)
+    </li>
+
+    <li>Multiple approaches to frame field correction for CAD models, 
+        <a href="https://imr.sandia.gov/28imr/index.html">28th IMR</a>, 
+        Buffalo (US), 2019. 
+        (<a href="https://mxncr.github.io/pdf/slides_imr28_ffcorrection.pdf">slides</a>)
+    </li>
+
+    <li>Towards automatic block decomposition of 3D domains by exploiting frame fields, 
+        <a href="http://congress.cimne.com/iga2019/frontal/default.asp">IGA 2019</a>, 
+        Munich (Germany), 2019. 
+        (<a href="pdf/slides_IGA2019.pdf">slides</a>)
+    </li>
+
+    <li>Towards automatic block decomposition of general 3D domains by correcting frame fields, 
+        <a href="http://15.usnccm.org/">USNCCM15</a>, 
+        Austin (US), 2019. 
+        (<a href="pdf/usnccm15_reberol.pdf">slides</a>)
+    </li>
+
+    <li>Limitations of boundary-aligned frame fields for full hexahedral meshing, 
+        <a href="https://www.hextreme.eu/frames2019/">FRAMES 2019</a>, 
+        Louvain-la-Neuve (Belgium), 2019. 
+        (<a href="https://www.hextreme.eu/frames2019/slides/slides_reberol.svg">slides</a>)
+    </li>
+
+    <li>
+        Maillages hex-dominants : génération, simulation et évaluation,
+        PhD defense, Nancy (France), 2018.
+        (<a href="https://mxncr.github.io/pdf/phd_slides.pdf">slides</a>)
+    </li>
+
+
+    <li>Efficient computation of distances between FEM solutions defined on different 3D meshes, 
+        CHANGE workshop, 
+        Leysin (Switzerland), 2018. 
+        (<a href="pdf/ffes_leysin18.pdf">slides</a>)
+    </li>
+
+    <li>Hex-dominant meshes and the finite element method,
+        seminar at UCLouvain, 
+        Louvain-la-Neuve (Belgium), 2017. 
+    </li>
+
+    <li>Finite Element method on hybrid hexahedral-tetrahedral meshes,
+        seminar at <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a>
+        Nancy (France), 2016. 
+    </li>
+
+     <!-- todo: talks during phd -->
+</ul>
+<br>
+
 
 <h2>Teaching</h2>
 <ul>
-    <li><strong>2017</strong>: Course on the implementation of FEM in C++ and student project supervision,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
-    <li><strong>2017</strong>: Tutorials on programming and algorithms,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
+    <li><strong>2018-2021</strong>: Tutorials on math analysis (<a href="https://uclouvain.be/cours-2020-lepl1102/" target="_blank">LEPL1102</a>), UCLouvain</li>
+    <li><strong>2017</strong>: Course on the implementation of FEM in C++ and student project supervision, <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a> </li>
     <li><strong>2017</strong>: Tutorials on numerical analysis,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
-    <li><strong>2016</strong>: Tutorials on programming and algorithms,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
+    <li><strong>2016, 2017</strong>: Tutorials on programming and algorithms,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
+</ul>
+<br>
+
+
+<h2>Education</h2>
+<ul>
+    <li>PhD in Computer Science, Inria Grand-Est / Université de Lorraine, 2015 - 2018</li>
+    <li>M.Sc. in Civil engineering, École Centrale Paris, 2013 - 2014</li>
+    <li>Diplôme d'Ingénieur, Supélec, 2011 - 2014</li>
 </ul>
 <br>
 
