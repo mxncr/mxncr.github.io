@@ -7,7 +7,7 @@
 <style>
 body{
     margin:1em auto;
-    max-width:45em;
+    max-width:800px;
     padding:0 .62em;
     font:1.1em/1.42 sans-serif;
     line-height:1.5;
@@ -18,11 +18,15 @@ h1,h2,h3 {
 p1 {
     text-align: justify;
 }
- @media print{
-     body{
-         max-width:none
-     }
- }
+#paper {
+    overflow:hidden;
+}
+
+@media print{
+    body{
+        max-width:none
+    }
+}
 </style>
 
 <article>
@@ -59,10 +63,14 @@ p1 {
 <br>
 
 <h2>Publications</h2>
+
+    <div style="clear: both;"></div>
+
     <dl>
         <a href="img/quadqs_block.png">
-            <img style="float: left; margin: -70px 15px 0px 0px;" src="img/box_quadqs.png" width="250" />
+            <img style="float: left; margin: -70px 15px -30px 0px;" src="img/box_quadqs.png" width="250" />
         </a>
+        <div id="paper">
         <dt> <b> Quasi-structured quadrilateral meshing in Gmsh - a robust pipeline for complex CAD models </b> </dt>
         <dt>Maxence Reberol, Christos Georgiadis, Jean-François Remacle </dt>
         <dt><i>Preprint</i>, 2021</dt>
@@ -73,20 +81,23 @@ p1 {
             Available in <a href="http://gmsh.info/">Gmsh 4.8.1+</a>
             (<a href="https://gitlab.onelab.info/gmsh/gmsh">open-source</a>)
         </dt>
+        </div>
     </dl>
 
-    <br>
-    <br>
+    <div style="clear: both;"></div>
 
     <dl>
-        <img style="float: left; margin: -15px 15px 0px 0px;" src="img/box_highval.png" width="250" />
+        <img style="float: left; margin: -15px 15px 10px 0px;" src="img/box_highval.png" width="250" />
+        <div id="paper">
         <dt> <b> Quad layouts with high valence singularities for flexible quad meshing </b> </dt>
         <dt>Jovana Jezdimirovíc, Alexandre Chemin, Maxence Reberol, François Henrotte, Jean François Remacle</dt>
         <dt><i>Preprint</i>, 2021</dt>
         <dt> <a href="https://arxiv.org/pdf/2103.02939.pdf">PDF</a> </dt>
+        </div>
     </dl>
 
-    <br>
+    <div style="clear: both;"></div>
+
     <dl>
         <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_poly.png" width="250" />
         <dt> <b> Robust Quantization for Polycube Maps </b> </dt>
@@ -95,7 +106,8 @@ p1 {
         <dt> <a href="https://hal.archives-ouvertes.fr/hal-03076711/document">PDF</a> </dt>
     </dl>
 
-    <br>
+    <div style="clear: both;"></div>
+
     <dl>
         <img style="float: left; margin: -10px 15px 0px 0px;" src="img/box_ffc.png" width="250" />
         <dt> <b> Multiple approaches to frame field correction for CAD models </b> </dt>
@@ -108,7 +120,8 @@ p1 {
         </dt>
     </dl>
 
-    <br>
+    <div style="clear: both;"></div>
+
     <dl>
         <img style="float: left; margin: -10px 15px 0px 0px;" src="img/box_phd.png" width="250" />
         <dt> <b>Maillages hex-dominants : génération, simulation et évaluation</b> </dt>
@@ -123,7 +136,7 @@ p1 {
         </dt>
     </dl>
 
-    <br>
+    <div style="clear: both;"></div>
 
     <dl>
         <img style="float: left; margin: -25px 15px 0px 0px;" src="img/box_mtg2018.png" width="250" />
@@ -136,7 +149,7 @@ p1 {
         </dt>
     </dl>
 
-    <br>
+    <div style="clear: both;"></div>
 
     <dl>
         <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_ffes.png" width="250" />
@@ -150,8 +163,7 @@ p1 {
         </dt>
     </dl>
 
-
-    <br>
+    <div style="clear: both;"></div>
 
     <dl>
         <img style="float: left; margin: -12px 15px 0px 0px;" src="img/box_hyb.png" width="250" />
