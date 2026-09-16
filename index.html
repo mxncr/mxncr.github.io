@@ -1,335 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Maxence Reberol's homepage</title>
+<title>Maxence Reberol</title>
+<meta name="description" content="Maxence Reberol leads the software team at Resolve Stroke. This page collects his earlier research on mesh generation: publications, talks and teaching.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 
 <style>
-body{
-    margin:1em auto;
-    max-width:800px;
-    padding:0 .62em;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-    line-height:1.5;
+html {
+    background-color: white;
 }
-h1,h2,h3 {
-    line-height:1.5;
+body {
+    margin: 1em auto;
+    max-width: 800px;
+    padding: 0 1em;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    line-height: 1.5;
+    overflow-wrap: break-word;
 }
-p1 {
-    text-align: justify;
+h1, h2, h3 {
+    line-height: 1.3;
 }
-#paper {
-    overflow:hidden;
+h2 {
+    margin-top: 2em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    padding-left: 1.2em;
+}
+li {
+    margin-bottom: 0.5em;
 }
 
-html {background-color: white} 
+/* Publications: thumbnail on the left, text on the right */
+.pubs {
+    list-style: none;
+    padding: 0;
+}
+.pub {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+.pub-img {
+    flex: none;
+    width: 220px;
+}
+.pub-img img {
+    display: block;
+    width: 100%;
+}
+.pub-title {
+    font-weight: bold;
+}
 
-@media print{
-    body{
-        max-width:none
+@media (max-width: 600px) {
+    .pub {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .pub-img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media print {
+    body {
+        max-width: none;
     }
 }
 </style>
+</head>
+<body>
 
 <article>
 
 <header>
-    <h1>Maxence Reberol's homepage</h1>
-    <!--<aside>subtitle</aside>-->
+    <h1>Maxence Reberol</h1>
 </header>
 <p>
-<!-- <img style="float: right; margin: -50px 0px 0px 0px;" src="img/b2cyls_dual_dcp.png" width="150" /> -->
     Email: maxence (dot) reberol (at) gmail (dot) com
-    <!-- <a href="mailto:maxence.reberol@uclouvain.be">maxence.reberol@uclouvain.be</a> -->
-    <!--
     <br>
-    Address:
-    Avenue Georges Lemaître 4, Louvain-la-Neuve, Belgium
-    -->
-</p>
-<a href="https://www.linkedin.com/in/maxence-reberol-43249085">Linkedin</a> - 
-<a href="https://github.com/mxncr">Github</a>
-
-<p>
+    <a href="https://www.linkedin.com/in/maxence-reberol-43249085">LinkedIn</a> -
+    <a href="https://github.com/mxncr">GitHub</a>
 </p>
 
-<h2>Intro</h2>
-    <p>At <a href="https://www.resolvestroke.com/">ResolveStroke</a>, I work on 3D Ultrasound Localized Microscopy for human brain imaging.</p>
-
+<h2>About</h2>
     <p>
-    Previously, I was a software engineer at Siemens
-    Digital Industries Software, where I specialized in improving quad meshing and
-    surface wrapping in the
-    <a href="https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/star-ccm/">
-        Star-CCM+</a> multiphysics simulation software. Before
-    that, I was a postdoctoral researcher 
-    at <a href="https://uclouvain.be">UCLouvain</a>
-    working with <a href="https://perso.uclouvain.be/jean-francois.remacle/">Jean-François Remacle</a>
-    in the <a href="https://www.hextreme.eu/">Hextreme</a> team, focusing on robust CAD model meshing
-    techniques, including all-quadrilateral surface and hex-dominant volume
-    meshing, as well as combinatorial approaches for unstructured
-    all-hexahedral meshes.
+    I work at <a href="https://www.resolvestroke.com/">Resolve Stroke</a>,
+    where I lead the software team behind an ultrasound medical device for
+    cerebral blood flow imaging.
     </p>
 
     <p>
-    Earlier, I earned my Computer Science PhD in Inria Grand-Est's <a
-        href="http://alice.loria.fr/">Alice</a> team, supervised by
-    <a href="https://members.loria.fr/BLevy/">Bruno Lévy</a> and 
-    <a href="http://www.antexel.com/">Sylvain Lefebvre</a>. My research centered on
-    hex-dominant mesh generation using frame-field based global parametrization,
-    finite element method numerical simulations, and the assessment of mesh
-    influence on numerical outcomes.
+    Before joining Resolve Stroke, I spent eight years on mesh generation for
+    numerical simulation, in academia and then in industry. The publications,
+    talks and teaching on this page all date from that period.
+    </p>
+
+    <p>
+    At Siemens Digital Industries Software, I was a software engineer in the
+    <a href="https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/star-ccm/">Star-CCM+</a>
+    surface meshing team, working on the quad mesher and the surface wrapper.
+    Before that, I was a postdoc at <a href="https://uclouvain.be">UCLouvain</a>
+    in <a href="https://perso.uclouvain.be/jean-francois.remacle/">Jean-François Remacle</a>'s
+    <a href="https://www.hextreme.eu/">Hextreme</a> team. My work there covered
+    all-quadrilateral surface meshing, hex-dominant volume meshing and
+    combinatorial methods for all-hexahedral meshes, with several contributions
+    to <a href="http://gmsh.info/">Gmsh</a>.
+    </p>
+
+    <p>
+    I hold a PhD in computer science from Inria, where I worked in the Alice
+    team under <a href="https://members.loria.fr/BLevy/">Bruno Lévy</a> and
+    <a href="http://www.antexel.com/">Sylvain Lefebvre</a>. My thesis dealt with
+    hex-dominant mesh generation from frame fields and global parametrization,
+    and with the influence of mesh quality on finite element results.
     </p>
 
 
-<h2>Publications</h2>
-    <div style="clear: both;"></div>
-
-    <dl>
-        <a href="img/hexbl_m3.jpeg">
-            <img style="float: left; margin: -20px 15px 0px 0px;" src="img/box_hexbl.png" width="250" />
-        </a>
-        <div id="paper">
-        <dt> <b> Robust Topological Construction of All-Hexahedral Boundary Layer Meshes </b> </dt>
-        <dt>Maxence Reberol, Kilian Verhetsel, François Henrotte, David Bommes, Jean-François Remacle </dt>
-        <dt><i>ACM Transactions on Mathematical Software</i>, 2023</dt>
-        <dt>
-            <a href="https://dl.acm.org/doi/10.1145/3577196">Link</a>,
+<h2>Publications (mesh generation, 2016 to 2023)</h2>
+<ul class="pubs">
+    <li class="pub">
+        <div class="pub-img"><a href="img/hexbl_m3.jpeg"><img src="img/box_hexbl.png" alt="" loading="lazy"></a></div>
+        <div class="pub-body">
+            <div class="pub-title">Robust Topological Construction of All-Hexahedral Boundary Layer Meshes</div>
+            <div><b>Maxence Reberol</b>, Kilian Verhetsel, François Henrotte, David Bommes, Jean-François Remacle</div>
+            <div><i>ACM Transactions on Mathematical Software</i>, 2023</div>
+            <div><a href="https://dl.acm.org/doi/10.1145/3577196">Publisher</a>,
             <a href="https://raw.githubusercontent.com/mxncr/mxncr.github.io/master/pdf/hexbl_2023.pdf">PDF</a>,
             <a href="https://raw.githubusercontent.com/mxncr/mxncr.github.io/master/pdf/supplemental_hexbl_2023.pdf">Results (supplemental)</a>,
-            <a href="https://github.com/mxncr/AllHexBoundaryLayerTopologySolver">Github</a>,
-            <a href="https://mxncr.github.io/pdf/slides_hexbl_frames2021.pdf">Slides</a> <br>
-            Available in the <a href="https://gitlab.onelab.info/gmsh/gmsh/-/tree/hexbl">hexbl</a> development branch of <a href="http://gmsh.info/">Gmsh</a>
-        </dt>
+            <a href="https://github.com/mxncr/AllHexBoundaryLayerTopologySolver">Code</a>,
+            <a href="pdf/slides_hexbl_frames2021.pdf">Slides</a></div>
+            <div>Available in the <a href="https://gitlab.onelab.info/gmsh/gmsh/-/tree/hexbl">hexbl</a> development branch of <a href="http://gmsh.info/">Gmsh</a></div>
         </div>
-    </dl>
+    </li>
 
-    <div style="clear: both;"></div>
-    <br>
-
-    <dl>
-        <a href="https://www.algohex.eu/publications/hex-me-if-you-can/teaser-i28b.png">
-            <img style="float: left; margin: -0px 15px 0px 0px;" src="img/hexme.png" width="250" />
-        </a>
-        <div id="paper">
-        <dt> <b>  Hex Me If You Can </b> </dt>
-        <dt>Pierre-Alexandre Beaufort, Maxence Reberol, Denis Kalmykov, Heng Liu, Franck Ledoux, David Bommes </dt>
-        <dt><i>Computer Graphics Forum (SGP)</i>, 2022</dt>
-        <dt>
-            <a href="https://www.algohex.eu/publications/hex-me-if-you-can/">Project page</a>
-        </dt>
+    <li class="pub">
+        <div class="pub-img"><a href="https://www.algohex.eu/publications/hex-me-if-you-can/teaser-i28b.png"><img src="img/hexme.png" alt="" loading="lazy"></a></div>
+        <div class="pub-body">
+            <div class="pub-title">Hex Me If You Can</div>
+            <div>Pierre-Alexandre Beaufort, <b>Maxence Reberol</b>, Denis Kalmykov, Heng Liu, Franck Ledoux, David Bommes</div>
+            <div><i>Computer Graphics Forum (SGP)</i>, 2022</div>
+            <div><a href="https://www.algohex.eu/publications/hex-me-if-you-can/">Project page</a></div>
         </div>
-    </dl>
+    </li>
 
-    <div style="clear: both;"></div>
-    <br>
-
-    <dl>
-        <img style="float: left; margin: -5px 15px 0px 0px;" src="img/bipartite.png" width="250" />
-        <div id="paper">
-        <dt> <b> Indirect All-Quadrilateral Meshing Based on Bipartite Topological Labeling </b> </dt>
-        <dt>Christos Georgiadis, Maxence Reberol, Jean-François Remacle </dt>
-        <dt><i>Engineering with Computers</i>, 2022</dt>
-        <dt>
-            <a href="https://link.springer.com/article/10.1007/s00366-022-01740-4">Link</a>,
-            <a href="https://www.researchsquare.com/article/rs-1272019/v1.pdf">PDF</a>
-        </dt>
+    <li class="pub">
+        <div class="pub-img"><img src="img/bipartite.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Indirect All-Quadrilateral Meshing Based on Bipartite Topological Labeling</div>
+            <div>Christos Georgiadis, <b>Maxence Reberol</b>, Jean-François Remacle</div>
+            <div><i>Engineering with Computers</i>, 2022</div>
+            <div><a href="https://link.springer.com/article/10.1007/s00366-022-01740-4">Publisher</a>,
+            <a href="https://www.researchsquare.com/article/rs-1272019/v1.pdf">PDF</a></div>
         </div>
-    </dl>
+    </li>
 
-    <div style="clear: both;"></div>
-    <br>
-
-    <dl>
-        <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_poly.png" width="250" />
-        <dt> <b> Robust Quantization for Polycube Maps </b> </dt>
-        <dt>Protais François, Maxence Reberol, Nicolas Ray, Etienne Corman, Franck Ledoux, Dmitry Sokolov</dt>
-        <dt><i>Computer-Aided Design</i>, 2022</dt>
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010448522000872">Link</a>
-    </dl>
-
-    <div style="clear: both;"></div>
-    <br>
-
-    <dl>
-        <img style="float: left; margin: -20px 15px 0px 0px;" src="img/box_m3ho.png" width="250" />
-        <div id="paper">
-        <dt> <b> Generation of High-Order Coarse Quad Meshes on CAD Models via Integer Linear Programming </b> </dt>
-        <dt>Mattéo Couplet, Maxence Reberol, Jean-François Remacle </dt>
-        <dt><i>AIAA Aviation</i>, 2021</dt>
-        <dt>
-            <a href="https://arxiv.org/pdf/2108.02635.pdf">PDF</a>
-        </dt>
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_poly.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Robust Quantization for Polycube Maps</div>
+            <div>François Protais, <b>Maxence Reberol</b>, Nicolas Ray, Etienne Corman, Franck Ledoux, Dmitry Sokolov</div>
+            <div><i>Computer-Aided Design</i>, 2022</div>
+            <div><a href="https://www.sciencedirect.com/science/article/abs/pii/S0010448522000872">Publisher</a></div>
         </div>
-    </dl>
+    </li>
 
-    <div style="clear: both;"></div>
-    <br>
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_m3ho.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Generation of High-Order Coarse Quad Meshes on CAD Models via Integer Linear Programming</div>
+            <div>Mattéo Couplet, <b>Maxence Reberol</b>, Jean-François Remacle</div>
+            <div><i>AIAA Aviation</i>, 2021</div>
+            <div><a href="https://arxiv.org/pdf/2108.02635.pdf">PDF</a></div>
+        </div>
+    </li>
 
-    <dl>
-        <a href="img/quadqs_block.png">
-            <img style="float: left; margin: -70px 15px -30px 0px;" src="img/box_quadqs.png" width="250" />
-        </a>
-        <div id="paper">
-        <dt> <b> Quasi-structured quadrilateral meshing in Gmsh - a robust pipeline for complex CAD models </b> </dt>
-        <dt>Maxence Reberol, Christos Georgiadis, Jean-François Remacle </dt>
-        <dt><i>Preprint</i>, 2021</dt>
-        <dt>
-            <a href="https://arxiv.org/pdf/2103.04652.pdf">PDF</a>,
+    <li class="pub">
+        <div class="pub-img"><a href="img/quadqs_block.png"><img src="img/box_quadqs.png" alt="" loading="lazy"></a></div>
+        <div class="pub-body">
+            <div class="pub-title">Quasi-structured quadrilateral meshing in Gmsh - a robust pipeline for complex CAD models</div>
+            <div><b>Maxence Reberol</b>, Christos Georgiadis, Jean-François Remacle</div>
+            <div><i>arXiv preprint</i>, 2021</div>
+            <div><a href="https://arxiv.org/pdf/2103.04652.pdf">PDF</a>,
             <a href="https://www.hextreme.eu/data/quadqs2021_supplemental.pdf">Results (supplemental)</a>,
-            <a href="https://youtu.be/OY6U3EyCq0o">Talk (video)</a> <br>
-            Available in <a href="http://gmsh.info/">Gmsh 4.8.1+</a>
-            (<a href="https://gitlab.onelab.info/gmsh/gmsh">open-source</a>)
-        </dt>
+            <a href="https://youtu.be/OY6U3EyCq0o">Talk (video)</a></div>
+            <div>Available in <a href="http://gmsh.info/">Gmsh 4.8.1+</a> (<a href="https://gitlab.onelab.info/gmsh/gmsh">open-source</a>)</div>
         </div>
-    </dl>
+    </li>
 
-    <div style="clear: both;"></div>
-
-    <dl>
-        <img style="float: left; margin: -30px 15px 10px 0px;" src="img/box_highval.png" width="250" />
-        <div id="paper">
-        <dt> <b> Quad layouts with high valence singularities for flexible quad meshing </b> </dt>
-        <dt>Jovana Jezdimirovíc, Alexandre Chemin, Maxence Reberol, François Henrotte, Jean François Remacle</dt>
-        <dt><i>29th International Meshing Roundtable</i>, 2021</dt>
-        <dt> <a href="https://internationalmeshingroundtable.com/assets/papers/2021/08-Jezdemirovic.pdf">PDF</a> </dt>
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_highval.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Quad layouts with high valence singularities for flexible quad meshing</div>
+            <div>Jovana Jezdimirović, Alexandre Chemin, <b>Maxence Reberol</b>, François Henrotte, Jean-François Remacle</div>
+            <div><i>29th International Meshing Roundtable</i>, 2021</div>
+            <div><a href="https://internationalmeshingroundtable.com/assets/papers/2021/08-Jezdemirovic.pdf">PDF</a></div>
         </div>
-    </dl>
+    </li>
 
-    <div style="clear: both;"></div>
-    <br>
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_ffc.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Multiple approaches to frame field correction for CAD models</div>
+            <div><b>Maxence Reberol</b>, Alexandre Chemin, Jean-François Remacle</div>
+            <div><i>28th International Meshing Roundtable</i>, 2019</div>
+            <div><a href="pdf/ff_correction_imr2019.pdf">PDF</a>,
+            <a href="pdf/slides_imr28_ffcorrection.pdf">Slides</a>,
+            <a href="data/ff_correction_models.zip">CAD models</a></div>
+        </div>
+    </li>
 
-    <dl>
-        <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_ffc.png" width="250" />
-        <dt> <b> Multiple approaches to frame field correction for CAD models </b> </dt>
-        <dt>Maxence Reberol, Alexandre Chemin, Jean-François Remacle </dt>
-        <dt><i>28th International Meshing Roundtable</i>, 2019</dt>
-        <dt>
-            <a href="https://mxncr.github.io/pdf/ff_correction_imr2019.pdf">PDF</a>,
-            <a href="https://mxncr.github.io/pdf/slides_imr28_ffcorrection.pdf">Slides</a>,
-            <a href="https://mxncr.github.io/data/ff_correction_models.zip">CAD models</a>
-        </dt>
-    </dl>
-
-    <div style="clear: both;"></div>
-
-    <dl>
-        <img style="float: left; margin: -10px 15px 0px 0px;" src="img/box_phd.png" width="250" />
-        <dt> <b>Maillages hex-dominants : génération, simulation et évaluation</b> </dt>
-        <dt>Maxence Reberol</dt>
-        <dt><i>PhD thesis</i>, 2018</dt>
-        <dt>Supervisors: <a href="https://members.loria.fr/BLevy/">Bruno Lévy</a>, <a href="http://www.antexel.com/">Sylvain Lefebvre</a>
-        </dt>
-        <dt>
-            <a href="http://www.theses.fr/2018LORR0021">Link</a>,
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_phd.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Maillages hex-dominants : génération, simulation et évaluation</div>
+            <div><b>Maxence Reberol</b></div>
+            <div><i>PhD thesis</i>, 2018</div>
+            <div>Supervisors: <a href="https://members.loria.fr/BLevy/">Bruno Lévy</a>, <a href="http://www.antexel.com/">Sylvain Lefebvre</a></div>
+            <div><a href="http://www.theses.fr/2018LORR0021">theses.fr</a>,
             <a href="http://docnum.univ-lorraine.fr/public/DDOC_T_2018_0021_REBEROL.pdf">PDF</a>,
-            <a href="https://mxncr.github.io/pdf/phd_slides.pdf">Slides</a>
-        </dt>
-    </dl>
+            <a href="pdf/phd_slides.pdf">Slides</a></div>
+        </div>
+    </li>
 
-    <div style="clear: both;"></div>
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_mtg2018.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Hexahedral Meshing: Mind the Gap!</div>
+            <div>Nicolas Ray, Dmitry Sokolov, <b>Maxence Reberol</b>, Franck Ledoux, Bruno Lévy</div>
+            <div><i>Computer-Aided Design</i>, 2018</div>
+            <div><a href="https://www.sciencedirect.com/science/article/pii/S0010448518302215">Publisher</a>,
+            <a href="https://hal.inria.fr/hal-01551603">Preprint</a></div>
+        </div>
+    </li>
 
-    <dl>
-        <img style="float: left; margin: -25px 15px 0px 0px;" src="img/box_mtg2018.png" width="250" />
-        <dt> <b>Hexahedral Meshing: Mind the Gap!</b> </dt>
-        <dt>Nicolas Ray, Dmitry Sokolov, Maxence Reberol, Franck Ledoux, Bruno Lévy</dt>
-        <dt><i>Computer-Aided Design</i>, 2018</dt>
-        <dt>
-            <a href="https://www.sciencedirect.com/science/article/pii/S0010448518302215">Link</a>,
-            <a href="https://hal.inria.fr/hal-01551603">Preprint</a>
-        </dt>
-    </dl>
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_ffes.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Computing the distance between two finite element solutions defined on different 3D meshes on a GPU</div>
+            <div><b>Maxence Reberol</b>, Bruno Lévy</div>
+            <div><i>SIAM Journal on Scientific Computing</i>, 2018</div>
+            <div><a href="https://epubs.siam.org/doi/10.1137/17M1115976">Publisher</a>,
+            <a href="pdf/distance_gpu_reb18.pdf">PDF</a>,
+            <a href="https://github.com/mxncr/FFES">Code</a></div>
+        </div>
+    </li>
 
-    <div style="clear: both;"></div>
-
-    <dl>
-        <img style="float: left; margin: -30px 15px 0px 0px;" src="img/box_ffes.png" width="250" />
-        <dt> <b>Computing the distance between two finite element solutions defined on different 3D meshes on a GPU</b> </dt>
-        <dt>Maxence Reberol, Bruno Lévy</dt>
-        <dt><i>SIAM Journal on Scientific Computing</i>, 2018</dt>
-        <dt>
-            <a href="https://epubs.siam.org/doi/10.1137/17M1115976">Link</a>,
-            <a href="https://mxncr.github.io/pdf/distance_gpu_reb18.pdf">PDF</a>,
-            <a href="https://github.com/mxncr/FFES">Code (on Github)</a>
-        </dt>
-    </dl>
-
-    <div style="clear: both;"></div>
-
-    <dl>
-        <img style="float: left; margin: -25px 15px 0px 0px;" src="img/box_hyb.png" width="250" />
-        <dt> <b>Low-order continuous finite element spaces on hybrid non-conforming hexahedral-tetrahedral meshes</b> </dt>
-        <dt>Maxence Reberol, Bruno Lévy</dt>
-        <dt><i>Research report</i>, 2016</dt>
-        <dt>
-            <a href="https://hal.archives-ouvertes.fr/hal-01313285">Preprint</a>
-        </dt>
-    </dl>
-</dl>
-<br>
-
+    <li class="pub">
+        <div class="pub-img"><img src="img/box_hyb.png" alt="" loading="lazy"></div>
+        <div class="pub-body">
+            <div class="pub-title">Low-order continuous finite element spaces on hybrid non-conforming hexahedral-tetrahedral meshes</div>
+            <div><b>Maxence Reberol</b>, Bruno Lévy</div>
+            <div><i>Research report</i>, 2016</div>
+            <div><a href="https://hal.archives-ouvertes.fr/hal-01313285">Preprint</a></div>
+        </div>
+    </li>
+</ul>
 
 <h2>Talks</h2>
 <ul>
     <li> Robust Topological Construction of All-Hexahedral Boundary Layer Meshes,
         <a href="https://www.algohex.eu/frames2021/">FRAMES 2021</a>,
         Online, 2021. 
-        (<a href="pdf/slides_hexbl_frames2021.pdf">slides</a>)
+        (<a href="pdf/slides_hexbl_frames2021.pdf">Slides</a>)
     </li>
 
     <li>Hex-dominant meshing with all-hexahedral boundary layer, 
-        <a href="http://16.usnccm.org/">USNCCM16</a>, 
+        USNCCM16, 
         Online, 2021. 
     </li>
 
     <li>Quasi-structured quadrilateral meshing of complex CAD models in Gmsh, 
         <a href="https://www.hextreme.eu/frames2020/">FRAMES 2020</a>, 
         Online, 2020. 
-        (<a href="https://youtu.be/OY6U3EyCq0o">video</a>)
+        (<a href="https://youtu.be/OY6U3EyCq0o">Video</a>)
     </li>
 
     <li>3D frame fields and block decomposition of CAD models, 
         seminar at the
         <a href="https://cgg.unibe.ch/">Computer Graphics Group, Unibe</a>, 
         Bern (Switzerland), 2020. 
-        (<a href="pdf/slides_bern2020.pdf">slides</a>)
+        (<a href="pdf/slides_bern2020.pdf">Slides</a>)
     </li>
 
     <li>Multiple approaches to frame field correction for CAD models, 
         <a href="https://imr.sandia.gov/28imr/index.html">28th IMR</a>, 
         Buffalo (US), 2019. 
-        (<a href="https://mxncr.github.io/pdf/slides_imr28_ffcorrection.pdf">slides</a>)
+        (<a href="https://mxncr.github.io/pdf/slides_imr28_ffcorrection.pdf">Slides</a>)
     </li>
 
     <li>Towards automatic block decomposition of 3D domains by exploiting frame fields, 
         <a href="http://congress.cimne.com/iga2019/frontal/default.asp">IGA 2019</a>, 
         Munich (Germany), 2019. 
-        (<a href="pdf/slides_IGA2019.pdf">slides</a>)
+        (<a href="pdf/slides_IGA2019.pdf">Slides</a>)
     </li>
 
     <li>Towards automatic block decomposition of general 3D domains by correcting frame fields, 
-        <a href="http://15.usnccm.org/">USNCCM15</a>, 
+        USNCCM15, 
         Austin (US), 2019. 
-        (<a href="pdf/usnccm15_reberol.pdf">slides</a>)
+        (<a href="pdf/usnccm15_reberol.pdf">Slides</a>)
     </li>
 
     <li>Limitations of boundary-aligned frame fields for full hexahedral meshing, 
         <a href="https://www.hextreme.eu/frames2019/">FRAMES 2019</a>, 
         Louvain-la-Neuve (Belgium), 2019. 
-        (<a href="https://www.hextreme.eu/frames2019/slides/slides_reberol.svg">slides</a>)
+        (<a href="https://www.hextreme.eu/frames2019/slides/slides_reberol.svg">Slides</a>)
     </li>
 
     <li>
         Maillages hex-dominants : génération, simulation et évaluation,
         PhD defense, Nancy (France), 2018.
-        (<a href="https://mxncr.github.io/pdf/phd_slides.pdf">slides</a>)
+        (<a href="https://mxncr.github.io/pdf/phd_slides.pdf">Slides</a>)
     </li>
 
 
     <li>Efficient computation of distances between FEM solutions defined on different 3D meshes, 
         CHANGE workshop, 
         Leysin (Switzerland), 2018. 
-        (<a href="pdf/ffes_leysin18.pdf">slides</a>)
+        (<a href="pdf/ffes_leysin18.pdf">Slides</a>)
     </li>
 
     <li>Hex-dominant meshes and the finite element method,
@@ -338,23 +334,21 @@ html {background-color: white}
     </li>
 
     <li>Finite Element method on hybrid hexahedral-tetrahedral meshes,
-        seminar at <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a>
+        seminar at <a href="http://ensg.univ-lorraine.fr/" target="_blank" rel="noopener">ENSG</a>
         Nancy (France), 2016. 
     </li>
 
      <!-- todo: talks during phd -->
 </ul>
-<br>
 
 
 <h2>Teaching</h2>
 <ul>
-    <li><strong>2018-2021</strong>: Tutorials on math analysis (<a href="https://uclouvain.be/cours-2020-lepl1102/" target="_blank">LEPL1102</a>), UCLouvain</li>
-    <li><strong>2017</strong>: Course on the implementation of FEM in C++ and student project supervision, <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a> </li>
-    <li><strong>2017</strong>: Tutorials on numerical analysis,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
-    <li><strong>2016, 2017</strong>: Tutorials on programming and algorithms,  <a href="http://ensg.univ-lorraine.fr/" target="_blank">ENSG</a></li>
+    <li><strong>2018-2021</strong>: Tutorials in mathematical analysis (LEPL1102), UCLouvain</li>
+    <li><strong>2017</strong>: Course on implementing the finite element method in C++, and supervision of student projects, <a href="http://ensg.univ-lorraine.fr/" target="_blank" rel="noopener">ENSG</a> </li>
+    <li><strong>2017</strong>: Tutorials on numerical analysis,  <a href="http://ensg.univ-lorraine.fr/" target="_blank" rel="noopener">ENSG</a></li>
+    <li><strong>2016, 2017</strong>: Tutorials on programming and algorithms,  <a href="http://ensg.univ-lorraine.fr/" target="_blank" rel="noopener">ENSG</a></li>
 </ul>
-<br>
 
 
 <h2>Education</h2>
@@ -363,7 +357,8 @@ html {background-color: white}
     <li>M.Sc. in Civil engineering, École Centrale Paris, 2013 - 2014</li>
     <li>Diplôme d'Ingénieur, Supélec, 2011 - 2014</li>
 </ul>
-<br>
 
 </article>
 
+</body>
+</html>
